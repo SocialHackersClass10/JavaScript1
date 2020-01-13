@@ -1,3 +1,4 @@
+
 > If you are following the curriculum we recommend you to start with module 1: [HTML/CSS/GIT](https://github.com/SocialHackersCodeSchool/HTML-CSS). To get a complete overview, click [here](https://github.com/SocialHackersCodeSchool/curriculum).
 
 > Please help us improve and share your feedback! If you find better tutorials
