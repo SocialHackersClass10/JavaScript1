@@ -6,7 +6,7 @@ const min5 = document.getElementById("min5");
 const min10 = document.getElementById("min10");
 const time = document.getElementsByTagName("h3")[0];
 const song = document.getElementById("song");
-const video = document.getElementById("video");
+const video = document.getElementById("video"); 
 let duration = 600;
 let clear; //use for clearTimeout
 
