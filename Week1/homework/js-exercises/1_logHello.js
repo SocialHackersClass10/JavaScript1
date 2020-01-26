@@ -1,0 +1,11 @@
+'use strict'
+console.log("Hello, World!")
+console.log("Geia sou, Kosme!")
+console.log("Ciao, Mondo!")
+console.log("Bonjour, le Monde!")
+console.log("Hallo, Welt!")
+console.log("Hola, Mundo!")
+console.log("Hei, Verden!")
+console.log("salve, Mundi!")
+console.log("Selam, Dunya!")
+console.log("Witaj, Wiecie!")
