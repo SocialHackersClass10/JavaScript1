@@ -1,0 +1,31 @@
+
+body {
+    background-color: silver;
+    padding: 0px 15px;
+    font-size: 150%;
+    font-family: sans-serif;
+}
+
+.cls_text_align_left {
+    text-align: left;
+}
+
+.cls_text_align_right {
+    text-align: right;
+}
+
+.cls_text_align_center {
+    text-align: center;
+}
+
+.cls_background_color_gold {
+    background-color: gold;
+}
+
+div {
+    padding:10px 20px;
+    margin: 10px 20px
+}
+
+;
+
