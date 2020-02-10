@@ -1,0 +1,29 @@
+body{
+    width: 1920px;
+    height: 1024px;   
+}
+
+.main, table{
+width: 400px;
+height: 400px;
+background-color: gainsboro;    
+}
+
+
+
+.textview{
+background-color: greenyellow;
+width: 100%;
+border:4px;
+font-size: 40px;
+border-style:inset;
+    text-align: center;
+}
+
+.button{
+    background-color: silver;
+    width: 100%;
+    height: 100%;
+    font-size: 30px;
+    border-radius: 15px;
+}
