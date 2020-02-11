@@ -1,10 +1,27 @@
 //You're at a party and you feel thirsty! However, you've got 5 friends who are also in need of a drink. Let's go get them a drink.
 
 //Declare a variable that holds an empty array, called drinkTray.
+let drinkTray=[];
 //There are 3 different types of drinks:
 //const drinkTypes = ["cola", "lemonade", "water"];
+const drinkTypes = ["cola", "lemonade", "water"];
 
-/*Create a loop that runs 5 times. On each iteration, push a drink into the drinkTray variable. The drinkTray can only hold at most two instances of the same drink type, for example it can only hold 2 colas, 2 lemonades, 2 waters.
+/*Create a loop that runs 5 times. On each iteration, push a drink into the drinkTray variable. 
+The drinkTray can only hold at most two instances of the same drink type, for example it can only hold 2 colas, 2 lemonades, 2 waters.
 If there are already two instances of a drinkType then start with the next drink in the array.
-Your drinkTray should contain 2 cola, 2 lemonade and 1 water.
-Log to the console: "Hey guys, I brought a [INSERT VALUES FROM ARRAY]!" (For example: "Hey guys, I brought a cola, cola, lemonade, lemonade, water!")*/
+Your drinkTray should contain 2 cola, 2 lemonade and 1 water.*/
+let drinksNum = 0;
+
+function checkDrinks (x){
+    return x == drinkTypes[drinksNum]
+};
+
+for (let i = 0; i < 5; i++){
+    drinkTray.push(drinkTypes[drinksNum]);
+    if (drinkTray.filter(checkDrinks).length === 2){
+        drinksNum += 1;
+    }   
+}
+
+//Log to the console: "Hey guys, I brought a [INSERT VALUES FROM ARRAY]!" (For example: "Hey guys, I brought a cola, cola, lemonade, lemonade, water!")
+console.log("Hey guys, I brought a " + drinkTray[0] + ", " + drinkTray[1] + ", " + drinkTray[2] + ", " + drinkTray[3] + ", " + drinkTray[4] + "!");
