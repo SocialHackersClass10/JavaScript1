@@ -3,11 +3,12 @@
 
 let drinkTray = new Array(5); //1
 const drinkTypes = [" cola", " lemonade", " water"]; //1
-let j=0;
+let x = 0;
 
 
 for(let i=0; i<drinkTray.length; i++){ //2
-    drinkTray[i] = drinkTypes[Math.floor(Math.random() * drinkTypes.length)]; //?3,4?
+    drinkTray[i] = drinkTypes[x]; //4
+    if(i%2 == 1) x++; //3
 }
 
 console.log("Hey guys, I brought a" + drinkTray.join()); //5
