@@ -1,4 +1,4 @@
-'use strict'
+'use strict';
 
 let myString = "hello,this,is,a,difficult,to,read,sentence"; //1
 console.log(myString.length); //2

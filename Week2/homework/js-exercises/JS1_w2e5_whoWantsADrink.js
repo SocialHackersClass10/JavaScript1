@@ -1,4 +1,4 @@
-'use strict'
+'use strict';
 
 
 let drinkTray = new Array(5); //1

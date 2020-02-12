@@ -1,4 +1,4 @@
-'use strict'
+'use strict';
 
 let books = [{title: "The Hobbit", author:"J.R.R. Tolkien", alreadyRead: false}, //1*
              {title: "The Lord of the Rings", author:"J.R.R. Tolkien", alreadyRead: false},

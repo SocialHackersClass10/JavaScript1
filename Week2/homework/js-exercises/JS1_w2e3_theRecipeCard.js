@@ -1,4 +1,4 @@
-'use strict'
+'use strict';
 
   let mealRecipe = { //1
 	title : "Toast",  //2*
