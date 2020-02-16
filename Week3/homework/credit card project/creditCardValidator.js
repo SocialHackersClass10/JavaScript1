@@ -14,8 +14,7 @@ function cardValidator(number) {
          return null;
      }
     }
-
-
+    
   if(even && sameNum && overSixteen != null) { 
   console.log("Valid card: "+number);
   }
