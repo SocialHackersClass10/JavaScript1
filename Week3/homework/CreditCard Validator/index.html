@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <title>CreditCard Validator GMouzakis</title>
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="stylesheet" type="text/css" href="style.css"> 
+        <script src="JS1_w3_project_CreditCard_Validator.js"></script>
+    </head>
+    <body>
+        <div class="container">
+            <label for="cardIN">Input your CreditCard number </label>
+            <input type="text"  id="cardIN" placeholder="here:">
+        </div>
+        <div id="message">
+            <h3>Your card is:</h3>
+            <p id="lengthCounter"><b>Number of Characters:</b></p>
+            <p id="cardLength" class="invalid"><b>1a. Number must be 16 digits</b></p>
+            <p id="onlyNumbers" class="invalid"><b>1b. All of them must be numbers</b></p>
+            <p id="notSameDigits" class="invalid"><b>2. You must have at least two different digits represented 
+                (all of the digits cannot be the same)</b>
+            </p>
+            <p id="lastEven" class="invalid"><b>3. The final digit must be even</b></p>
+            <p id="numTotal" class="invalid"><b>4. The sum of all the digits must be greater than 16</b></p>
+            
+        </div>
+    </body>
+</html>
