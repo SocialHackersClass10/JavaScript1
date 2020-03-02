@@ -13,35 +13,37 @@
         <div class="container">
             <h1 class="mb-4 text-center">HTML Calculator</h1>
             <div class="row">
-                <div class="col" id="screen">0</div>
+                <div class="col screen" id="scr"></div>
             </div>
-            <div class="row flex-nowrap">
-                <div class="col-6 oper" id="C">C</div>
-                <div class="col oper" id="back"><=</div>
-                <div class="col oper" id="devide">/</div>
-            </div>
-            <div class="row flex-nowrap">    
-                <div class="col num" id="seven">7</div>
-                <div class="col num" id="eight">8</div>
-                <div class="col num" id="nine">9</div>
-                <div class="col oper" id="multi">x</div>
-            </div>    
-            <div class="row flex-nowrap">
-                <div class="col num" id="four">4</div>
-                <div class="col num" id="five">5</div>
-                <div class="col num" id="six">6</div>
-                <div class="col oper" id="minus">-</div>
-            </div>
-            <div class="row flex-nowrap">
-                <div class="col num" id="one">1</div>
-                <div class="col num" id="two">2</div>
-                <div class="col num" id="three">3</div>
-                <div class="col oper" id="plus">+</div>
-            </div>
-            <div class="row flex-nowrap">
-                <div class="col-6 num" id="zero">0</div>
-                <div class="col num" id="dec">.</div>
-                <div class="col oper" id="equal">=</div>
+            <div class="keyboard">
+                <div class="row flex-nowrap">
+                    <div class="col-6" id="C">C</div>
+                    <div class="col" id="back"><=</div>
+                    <div class="col symbol" id="devide">/</div>
+                </div>
+                <div class="row flex-nowrap">    
+                    <div class="col num" id="seven">7</div>
+                    <div class="col num" id="eight">8</div>
+                    <div class="col num" id="nine">9</div>
+                    <div class="col symbol" id="multi">X</div>
+                </div>    
+                <div class="row flex-nowrap">
+                    <div class="col num" id="four">4</div>
+                    <div class="col num" id="five">5</div>
+                    <div class="col num" id="six">6</div>
+                    <div class="col symbol" id="minus">-</div>
+                </div>
+                <div class="row flex-nowrap">
+                    <div class="col num" id="one">1</div>
+                    <div class="col num" id="two">2</div>
+                    <div class="col num" id="three">3</div>
+                    <div class="col symbol" id="plus">+</div>
+                </div>
+                <div class="row flex-nowrap">
+                    <div class="col-6 num" id="zero">0</div>
+                    <div class="col num" id="dec">.</div>
+                    <div class="col symbol" id="equal">=</div>
+                </div>
             </div>    
         </div>
         <script src="calc.js"></script>
